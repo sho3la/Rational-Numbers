@@ -4,7 +4,7 @@
 
 #include <algorithm>
 
-namespace cg
+namespace Rational
 {
 	struct exact_double
 	{
@@ -232,4 +232,4 @@ namespace cg
 		return mpq_sgn(a.val);
 	}
 
-} // namespace cg
+} // namespace Rational
